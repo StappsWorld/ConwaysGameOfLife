@@ -157,6 +157,7 @@ while True:
             
 
         print(reasonForGameOver)
-        print(reasonForGameOver, file=f)
+        if write:
+            print(reasonForGameOver, file=f)
         sleep(2)
                 
